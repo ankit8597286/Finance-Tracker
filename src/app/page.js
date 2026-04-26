@@ -82,7 +82,7 @@ export default function Home() {
 
         {/* 📊 Dashboard Cards */}
         <div className="mb-6">
-          <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
+          <h1 className="text-2xl text-violet-700 font-bold mb-4">Dashboard</h1>
 
           <div className=" text-gray-700 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             <DashboardCard title="Total Balance" amount={balance} />
